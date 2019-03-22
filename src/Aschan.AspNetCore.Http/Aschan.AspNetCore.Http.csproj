@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Edward Aschan</Authors>
+    <Product>Aschan Asp.Net Core Extensions</Product>
+    <Description>A collection of Asp.Net Core extensions. I use the word collection losely since it only contains one middleware yet. Reference this package in order to add X-Clacks-Overhead response header to your Asp.Net Core application.</Description>
+    <PackageLicenseUrl>https://github.com/aschan/AspNetCoreExtensions/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/aschan/AspNetCoreExtensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aschan/AspNetCoreExtensions</RepositoryUrl>
+    <PackageTags>Clacks, X-Clacks-Overhead</PackageTags>
+    <PackageReleaseNotes>Initial release; created Clacks middleware</PackageReleaseNotes>
+    <Copyright>Copyright 2019</Copyright>
+    <Company />
   </PropertyGroup>
 
   <ItemGroup>
